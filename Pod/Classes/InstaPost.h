@@ -25,7 +25,6 @@
 @protocol InstaPost <NSObject>
 
 @property (nullable, nonatomic, retain, readonly) NSString *identifier;
-@property (nullable, nonatomic, retain, readonly) InstaLocation *location;
 @property (nullable, nonatomic, retain, readonly) NSNumber *commentsCount;
 @property (nullable, nonatomic, retain, readonly) NSDate   *created;
 @property (nullable, nonatomic, retain, readonly) NSString *filter;
@@ -34,6 +33,7 @@
 @property (nullable, nonatomic, retain, readonly) NSString *type;
 @property (nullable, nonatomic, retain, readonly) NSNumber *userHasLiked;
 @property (nullable, nonatomic, retain, readonly) NSNumber *distance;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaLocation> *location;
 @property (nullable, nonatomic, retain, readonly) NSObject<InstaUser>    *author;
 @property (nullable, nonatomic, retain, readonly) NSObject<InstaCaption> *caption;
 @property (nullable, nonatomic, retain, readonly) NSObject<InstaImage>   *imageLow;
