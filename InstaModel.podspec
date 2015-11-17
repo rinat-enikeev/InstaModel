@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "InstaModel"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Protocols describing Instagram data model."
   s.description      = <<-DESC
                         This pod contains ONLY protocols describing Instagram data model.
