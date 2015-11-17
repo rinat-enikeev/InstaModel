@@ -7,9 +7,7 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+This pod does not contain any implementation. It only describes Instagram data model with protocols. 
 
 ## Installation
 
