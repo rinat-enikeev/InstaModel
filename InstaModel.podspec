@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "InstaModel"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Protocols describing Instagram data model."
   s.description      = <<-DESC
                         This pod contains ONLY protocols describing Instagram data model.
@@ -18,5 +18,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
+
+  s.module_name = 'InstaModel'
 
 end
