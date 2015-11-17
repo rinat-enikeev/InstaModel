@@ -19,8 +19,8 @@
 
 @property (nullable, nonatomic, retain, readonly) NSNumber *x;
 @property (nullable, nonatomic, retain, readonly) NSNumber *y;
-@property (nullable, nonatomic, retain, readonly) InstaPost *post;
-@property (nullable, nonatomic, retain, readonly) InstaUser *user;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaPost> *post;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaUser> *user;
 
 @end
 

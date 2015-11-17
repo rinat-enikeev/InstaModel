@@ -19,8 +19,8 @@
 @property (nullable, nonatomic, retain, readonly) NSDate *created;
 @property (nullable, nonatomic, retain, readonly) NSString *identifier;
 @property (nullable, nonatomic, retain, readonly) NSString *text;
-@property (nullable, nonatomic, retain, readonly) InstaUser *from;
-@property (nullable, nonatomic, retain, readonly) InstaPost *post;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaUser> *from;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaPost> *post;
 
 @end
 

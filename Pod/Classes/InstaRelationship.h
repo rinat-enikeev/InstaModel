@@ -18,8 +18,8 @@
 
 @property (nullable, nonatomic, retain, readonly) NSString *outgoingStatus;
 @property (nullable, nonatomic, retain, readonly) NSString *incomingStatus;
-@property (nullable, nonatomic, retain, readonly) InstaUser *owner;
-@property (nullable, nonatomic, retain, readonly) InstaUser *requestedUser;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaUser> *owner;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaUser> *requestedUser;
 
 @end
 

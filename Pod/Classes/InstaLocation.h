@@ -19,7 +19,7 @@
 @property (nullable, nonatomic, retain, readonly) NSNumber *latitude;
 @property (nullable, nonatomic, retain, readonly) NSNumber *longitude;
 @property (nullable, nonatomic, retain, readonly) NSString *name;
-@property (nullable, nonatomic, retain, readonly) InstaPost *post;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaPost> *post;
 
 @end
 

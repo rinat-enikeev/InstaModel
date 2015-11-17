@@ -20,9 +20,9 @@
 @property (nullable, nonatomic, retain, readonly) NSString *localPath;
 @property (nullable, nonatomic, retain, readonly) NSString *url;
 @property (nullable, nonatomic, retain, readonly) NSNumber *width;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaPost *> *postLowBand;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaPost *> *postLowRes;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaPost *> *postStdRes;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaPost> *> *postLowBand;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaPost> *> *postLowRes;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaPost> *> *postStdRes;
 
 @end
 

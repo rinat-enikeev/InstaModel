@@ -34,19 +34,19 @@
 @property (nullable, nonatomic, retain, readonly) NSString *type;
 @property (nullable, nonatomic, retain, readonly) NSNumber *userHasLiked;
 @property (nullable, nonatomic, retain, readonly) NSNumber *distance;
-@property (nullable, nonatomic, retain, readonly) InstaUser    *author;
-@property (nullable, nonatomic, retain, readonly) InstaCaption *caption;
-@property (nullable, nonatomic, retain, readonly) InstaImage   *imageLow;
-@property (nullable, nonatomic, retain, readonly) InstaImage   *imageStd;
-@property (nullable, nonatomic, retain, readonly) InstaImage   *imageThumb;
-@property (nullable, nonatomic, retain, readonly) InstaVideo *videoLowBand;
-@property (nullable, nonatomic, retain, readonly) InstaVideo *videoLowRes;
-@property (nullable, nonatomic, retain, readonly) InstaVideo *videoStdRes;
-@property (nullable, nonatomic, retain, readonly) InstaAttribution *attribution;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaUser *> *likers;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaTag *>  *tags;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaUserOnPost *> *usersOnPost;
-@property (nullable, nonatomic, retain, readonly) NSSet<InstaComment *> *comments;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaUser>    *author;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaCaption> *caption;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaImage>   *imageLow;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaImage>   *imageStd;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaImage>   *imageThumb;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaVideo> *videoLowBand;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaVideo> *videoLowRes;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaVideo> *videoStdRes;
+@property (nullable, nonatomic, retain, readonly) NSObject<InstaAttribution> *attribution;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaUser> *> *likers;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaTag> *>  *tags;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaUserOnPost> *> *usersOnPost;
+@property (nullable, nonatomic, retain, readonly) NSSet<NSObject<InstaComment> *> *comments;
 
 @end
 
