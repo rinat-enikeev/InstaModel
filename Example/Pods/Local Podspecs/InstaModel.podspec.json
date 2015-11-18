@@ -1,0 +1,23 @@
+{
+  "name": "InstaModel",
+  "version": "0.1.5",
+  "summary": "Protocols describing Instagram data model.",
+  "description": "This pod contains ONLY protocols describing Instagram data model.",
+  "homepage": "https://github.com/rinat-enikeev/InstaModel",
+  "license": "MIT",
+  "authors": {
+    "Rinat Enikeev": "rinat.enikeev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rinat-enikeev/InstaModel.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "Foundation",
+  "module_name": "InstaModel"
+}

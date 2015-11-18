@@ -1,0 +1,14 @@
+PODS:
+  - InstaModel (0.1.5)
+
+DEPENDENCIES:
+  - InstaModel (from `../`)
+
+EXTERNAL SOURCES:
+  InstaModel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  InstaModel: 21f0eae6ab127d4ca809cffe4e4bd2bf526dcce2
+
+COCOAPODS: 0.39.0
